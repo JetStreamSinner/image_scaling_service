@@ -11,8 +11,8 @@ def service_info_handler():
         "input": [
             {
                 "argument_name": "image",
-                "argument_description": "Image for rotation",
-                "type": "image/jpeg"
+                "argument_description": "Image for rotation, represented in base64",
+                "type": "str"
             },
             {
                 "argument_name": "width",
