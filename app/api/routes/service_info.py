@@ -6,9 +6,9 @@ service_info = APIRouter()
 @service_info.get("/me")
 def service_info_handler():
     return {
-        "name": "Rotating Service",
-        "description": "Service for rotating input images",
-        "input": [
+        "service_name": "Image scaling service",
+        "service_description": "Service for rotating input images",
+        "arguments": [
             {
                 "argument_name": "image",
                 "argument_description": "Image for rotation, represented in base64",
