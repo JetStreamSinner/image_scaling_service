@@ -12,9 +12,9 @@ Its route return all required information about service
 
 ```json
 {
-  "name": "service_name", // str. Name of the service
-  "description": "some description", // str. Some service description
-  "input": [
+  "service_name": "service_name", // str. Name of the service
+  "service_description": "some description", // str. Some service description
+  "arguments": [
     {
       "argument_name": "argument_name",
       "argument_description": "description",
