@@ -1,4 +1,7 @@
 # Service description
+
+Service for testing of functionality, base proxy service. Input data of this sevice is an image in base64 coding and target width and height for scaling, output also is image in base64 coding.
+
 # Include service minimal interface
 
 Description of interface which service should implement for interaction with proxy service
