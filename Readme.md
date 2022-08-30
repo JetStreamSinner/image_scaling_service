@@ -18,12 +18,12 @@ Its route return all required information about service
     {
       "argument_name": "argument_name",
       "argument_description": "description",
-      "type": "image"
+      "type": "image" // mime type of argument
     },
     {
       "argument_name": "argument_name2",
       "argument_description": "description",
-      "type": "int"
+      "type": "text"
     }
   ]
 }
