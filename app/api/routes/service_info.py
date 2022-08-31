@@ -10,17 +10,17 @@ def service_info_handler():
         "service_description": "Service for rotating input images",
         "arguments": [
             {
-                "argument_name": "image",
+                "argument_name": "image_data",
                 "argument_description": "Image for rotation, represented in base64",
                 "type": "image"
             },
             {
-                "argument_name": "width",
+                "argument_name": "target_width",
                 "argument_description": "Target width",
                 "type": "text"
             },
             {
-                "argument_name": "height",
+                "argument_name": "target_height",
                 "argument_description": "Target height",
                 "type": "text"
             }
