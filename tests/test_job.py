@@ -33,7 +33,6 @@ class TestBadArguments:
     def test_arguments(self, request_body):
         response = client.post("/do_job", json=request_body)
         response_body = response.json()
-        print("Response body", response_body)
 
         expected_response = {"detail": "Bad arguments"}
         assert response.status_code == 400
